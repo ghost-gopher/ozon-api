@@ -31,8 +31,6 @@ type (
 	}
 )
 
-// NewDefault Clean returns the shortest path name equivalent to path
-// [Lexical File Names in Plan 9]: https://9p.io/sys/doc/lexnames.html
 func NewDefault() *Seller {
 	opts := &options{
 		BaseURI:   DefaultSellerAPIBaseURI,

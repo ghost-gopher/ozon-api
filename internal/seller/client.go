@@ -73,7 +73,7 @@ func (c *client) Request(ctx context.Context, method string, path string, src in
 		Status: answer.StatusCode,
 		Result: tgt,
 	}
-	fmt.Println(answer)
+
 	switch answer.StatusCode {
 	case http.StatusOK:
 		{

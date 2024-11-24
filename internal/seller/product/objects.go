@@ -38,7 +38,7 @@ type InfoObject struct {
 	DescriptionCategoryId int64     `json:"description_category_id"`
 	TypeId                int64     `json:"type_id"`
 	IsArchived            bool      `json:"is_archived"`
-	IsAutoarchived        bool      `json:"is_autoarchived"`
+	IsAutoArchived        bool      `json:"is_autoarchived"`
 }
 
 type InfoSource struct {

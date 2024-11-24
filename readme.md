@@ -2,9 +2,11 @@
 
 Functional includes: 
 - **Seller API** - for manage products, reports, sell strategies, warehouses more details [here](https://docs.ozon.ru/api/seller).
+- **Performance API** - planning to do
+
 
 ## How to start
-### API
+### Seller API
 Get ```Client-Id``` and ```Api-Key``` in your seller profile [here](https://seller.ozon.ru/app/settings/api-keys?locale=en)
 
 for begin add dependency to your project and ready done.
